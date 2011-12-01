@@ -38,7 +38,7 @@
     OAConsumer *consumer;
     OAToken *token;
     NSString *realm;
-    NSString *signature;
+    NSString *__unsafe_unretained signature;
     id<OASignatureProviding> signatureProvider;
     NSString *nonce;
     NSString *timestamp;
